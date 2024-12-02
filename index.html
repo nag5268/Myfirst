@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Validation</title>
+    <link rel="stylesheet" href="sty.css"> 
+</head>
+<body>
+<h1>
+    Hi Nag
+</h1>
+<h3>king of kotha</h3>
+<button>Click me!</button>
+<br>
+
+
+
+    <fieldset>
+        <legend>Login Page</legend>
+        <form action=/action.php>
+            <label for="email">Email : </label>
+            <input type="text" name="email" id="email" pattern="^[a-zA-Z/d.+-_]+@[a-zA-Z]+.[a-zA-Z]{2,4}$" title="Enter a valid mail"required>
+            <br>
+            <label for="pass">Password : </label>
+            <input type="password" name="pass" id="pass" pattern="^(?=.*[A-Z])(?=.*[a-z]) [A-Za-z/d.@#$%&_+-]{8,}$" title="Password must atleast 8 chars" required>
+            <br>
+            <button>submit</button>
+        </form>
+    </fieldset>
+    
+</body>
+</html>
